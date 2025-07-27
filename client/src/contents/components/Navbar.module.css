@@ -1,0 +1,99 @@
+.app {
+  display: flex;
+}
+
+.content {
+  margin-left: 250px;
+  padding: 20px;
+  width: 100%;
+}
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #99a5cb;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  position: fixed;
+    overflow-y: auto;  /* Enable scrolling */
+    scrollbar-width: thin; /* Firefox */
+}
+
+.logo h2 {
+  color: #4a4aff;
+  margin: 0;
+}
+
+.logo p {
+  color: gray;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 15px 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #4a4aff;
+  color: white;
+}
+/* Style for the dropdown container */
+.dropdown {
+  position: relative;
+  list-style: none;
+}
+
+/* Style for the dropdown menu */
+.dropdownMenu {
+  position: absolute;
+  top: 100%; /* Position the menu below the link */
+  left: 0;
+  background: #fff;
+  display: none; /* Hide the dropdown initially */
+  padding: 10px 0;
+  margin: 0;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  width: 180px; /* Adjust the width as needed */
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdownMenu {
+  display: block;
+}
+
+/* Style for the links inside the dropdown */
+.dropdownMenu li {
+  padding: 8px 12px;
+}
+
+.dropdownMenu li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  display: block;
+}
+
+/* Change link color on hover */
+.dropdownMenu li a:hover {
+  background-color: #f0f0f0;
+  color: #007bff;
+}
+
+/* Style for the drop  */
+/* Basic dropdown styles */

@@ -1,0 +1,21 @@
+
+.element{
+    width: calc(100% - 250px); /* Adjust based on sidebar width */
+  /* \    left: 250px; */
+
+}
+.containerApp{
+    display: flex;
+    background-color: rgb(233, 237, 247);
+}
+.content{
+    margin-top: 65px;
+    margin-left: 300px;
+}
+/* Main Content Area */
+.mainContent {
+  margin-left: 250px; /* Sidebar width */
+  width: calc(100% - 250px); /* Remaining space for content */
+  padding: 20px;
+  overflow-y: auto; /* Allow scrolling */
+}
